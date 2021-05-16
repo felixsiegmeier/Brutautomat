@@ -1,4 +1,4 @@
-#library für Stepper-Motoren
+#library für Stepper-Motoren 
 
 import time
 

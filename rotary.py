@@ -17,7 +17,7 @@ Usage:
                 oldval = val
             sleep_ms(50)
 
-    readloop(e)
+    readloop(e) 
 """
 
 from machine import Pin
