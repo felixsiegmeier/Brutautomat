@@ -56,7 +56,7 @@ heat_vent = Pin(heat_vent_pin,Pin.OUT)
 # === Loop ===
 while True:
     self.oled.fill(0)
-    self.oled.text("Temp. Ziel: " + str(enc.value/10) + " C", 0, 5)
+    self.oled.text("Ziel: " + str(enc.value/10) + " C", 0, 5)
     self.oled.text("Temp.: " + str(sensor.get_temp()) + " C", 0, 5)
     self.oled.text("Humidity: " + str(sensor.get_humidity()) + " %", 0, 25)
     self.oled.show()
